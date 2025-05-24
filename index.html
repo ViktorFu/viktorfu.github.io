@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weikang FU - 机器学习工程师 | AI研究员</title>
+    <title>Weikang FU - Applied Mathematics & Machine Learning</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- 导航栏 -->
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home">我的主页</a>
+                <a href="#home">Weikang FU</a>
             </div>
             <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">首页</a>
-                <a href="#about" class="nav-link">关于我</a>
-                <a href="#skills" class="nav-link">技能</a>
-                <a href="#projects" class="nav-link">项目</a>
-                <a href="#contact" class="nav-link">联系我</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </div>
             <div class="nav-toggle" id="nav-toggle">
                 <span class="bar"></span>
@@ -32,132 +32,307 @@
         </div>
     </nav>
 
-    <!-- 主页部分 -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                                <h1 class="hero-title">                    你好，我是 <span class="highlight">Weikang FU</span>                </h1>
-                <p class="hero-subtitle">
-                    <span class="typing-text"></span>
-                </p>
+                <h1 class="hero-title">Weikang FU</h1>
+                <p class="hero-subtitle">Applied Mathematics & Machine Learning Researcher</p>
                 <p class="hero-description">
-                    热爱技术，专注于创造优秀的数字体验。欢迎了解我的工作和项目。
+                    Master's student at Institut Polytechnique de Paris, specializing in applied mathematics, 
+                    machine learning, and optimization. Currently conducting research in metalearning and 
+                    manifold optimization in healthcare applications.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">查看项目</a>
-                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                    <a href="#research" class="btn btn-primary">View Research</a>
+                    <a href="mailto:weikang.fu@polytechnique.edu" class="btn btn-secondary">Contact</a>
                 </div>
             </div>
             <div class="hero-image">
                 <div class="profile-circle">
-                    <img src="https://via.placeholder.com/300x300/4f46e5/ffffff?text=您的照片" alt="个人照片">
+                    <img src="https://via.placeholder.com/300x300/4a5568/ffffff?text=WF" alt="Weikang FU">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 关于我部分 -->
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">关于我</h2>
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        我是一名充满热情的开发者，拥有丰富的项目经验和技术技能。
-                        我专注于创建用户友好、高性能的应用程序，始终追求代码的质量和创新。
+                        I am a Master's student in Applied Mathematics and Statistics at Institut Polytechnique de Paris, 
+                        with a strong background in both theoretical mathematics and practical machine learning applications. 
+                        My research interests lie at the intersection of optimization theory, stochastic processes, and healthcare AI.
                     </p>
                     <p>
-                        在我的职业生涯中，我不断学习新技术，挑战自己，并与团队合作完成各种复杂的项目。
-                        我相信技术的力量能够改变世界，让人们的生活变得更加便利。
+                        With experience in algorithm engineering and research assistance, I have worked on projects ranging 
+                        from GAN-based medical image enhancement to metalearning for clinical prediction tasks. I am passionate 
+                        about applying mathematical rigor to solve real-world problems in healthcare and finance.
                     </p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3>2+</h3>
-                            <p>年经验</p>
-                        </div>
-                        <div class="stat">
-                            <h3>10+</h3>
-                            <p>完成项目</p>
-                        </div>
-                        <div class="stat">
-                            <h3>5+</h3>
-                            <p>技术栈</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 技能部分 -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">我的技能</h2>
-                        <div class="skills-grid">                <div class="skill-card">                    <div class="skill-icon">                        <i class="fas fa-brain"></i>                    </div>                    <h3>机器学习</h3>                    <p>PyTorch, TensorFlow, Scikit-learn, GANs</p>                </div>                <div class="skill-card">                    <div class="skill-icon">                        <i class="fab fa-python"></i>                    </div>                    <h3>Python开发</h3>                    <p>Python, NumPy, Pandas, OpenCV, GUI开发</p>                </div>                <div class="skill-card">                    <div class="skill-icon">                        <i class="fas fa-x-ray"></i>                    </div>                    <h3>医学影像处理</h3>                    <p>CT扫描分析, 图像超分辨率, 医学AI</p>                </div>                <div class="skill-card">                    <div class="skill-icon">                        <i class="fas fa-chart-line"></i>                    </div>                    <h3>金融科技</h3>                    <p>风险评估建模, 金融数据分析, 量化分析</p>                </div>                <div class="skill-card">                    <div class="skill-icon">                        <i class="fas fa-microphone"></i>                    </div>                    <h3>音频AI</h3>                    <p>Whisper AI, 语音转录, 音频处理</p>                </div>                <div class="skill-card">                    <div class="skill-icon">                        <i class="fab fa-github"></i>                    </div>                    <h3>项目管理</h3>                    <p>Git, GitHub, Jupyter Notebook, 研究文档</p>                </div>            </div>
-        </div>
-    </section>
-
-    <!-- 项目部分 -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">我的项目</h2>
-            <div class="projects-grid">
-                                <div class="project-card">                    <div class="project-image">                        <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=肺部CT扫描超分辨率" alt="Super-Resolution of Lung CT Scans">                        <div class="project-overlay">                            <a href="https://github.com/ViktorFu/Super-Resolution-of-Lung-CT-Scans-Using-GANs" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>                            <a href="https://github.com/ViktorFu/Super-Resolution-of-Lung-CT-Scans-Using-GANs" class="project-github" target="_blank"><i class="fab fa-github"></i></a>                        </div>                    </div>                    <div class="project-content">                        <h3>肺部CT扫描超分辨率处理</h3>                        <p>使用生成对抗网络(GANs)提高肺部CT扫描图像的分辨率，改善医学影像的清晰度和诊断质量。</p>                        <div class="project-tech">                            <span>Python</span>                            <span>GANs</span>                            <span>医学影像</span>                        </div>                    </div>                </div>
-                                <div class="project-card">                    <div class="project-image">                        <img src="https://via.placeholder.com/400x250/f093fb/ffffff?text=金融风险评估系统" alt="Financial Risk Assessment System">                        <div class="project-overlay">                            <a href="https://github.com/ViktorFu/Financial-Risk-Assessment-System" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>                            <a href="https://github.com/ViktorFu/Financial-Risk-Assessment-System" class="project-github" target="_blank"><i class="fab fa-github"></i></a>                        </div>                    </div>                    <div class="project-content">                        <h3>金融风险评估系统</h3>                        <p>一个完整的金融风险评估系统GUI应用程序，包含源代码、项目报告和演示材料，用于评估投资和贷款风险。</p>                        <div class="project-tech">                            <span>Python</span>                            <span>GUI开发</span>                            <span>金融建模</span>                        </div>                    </div>                </div>
-                                <div class="project-card">                    <div class="project-image">                        <img src="https://via.placeholder.com/400x250/4ade80/ffffff?text=Whisper转录器" alt="Whisper Transcriber">                        <div class="project-overlay">                            <a href="https://github.com/ViktorFu/whisper-transcriber" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>                            <a href="https://github.com/ViktorFu/whisper-transcriber" class="project-github" target="_blank"><i class="fab fa-github"></i></a>                        </div>                    </div>                    <div class="project-content">                        <h3>专业Whisper转录器</h3>                        <p>基于OpenAI Whisper的专业音频/视频转录工具，具有高精度时间戳和并行处理功能，支持多种格式转录。</p>                        <div class="project-tech">                            <span>Python</span>                            <span>Whisper AI</span>                            <span>音频处理</span>                        </div>                    </div>                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 联系我部分 -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">联系我</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>让我们一起合作</h3>
-                    <p>如果您有任何项目想法或合作机会，请随时联系我。我很乐意与您讨论。</p>
-                    <div class="contact-details">
+                    <div class="contact-info">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
-                            <span>your.email@example.com</span>
+                            <span>weikang.fu@polytechnique.edu</span>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
-                            <span>+86 123 4567 8900</span>
+                            <span>+33 7 67 38 18 18</span>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>中国，北京</span>
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/ViktorFu" target="_blank">github.com/ViktorFu</a>
                         </div>
                     </div>
-                                        <div class="social-links">                        <a href="https://github.com/ViktorFu" class="social-link" target="_blank"><i class="fab fa-github"></i></a>                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="您的姓名" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="您的邮箱" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="主题" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="您的消息" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">发送消息</button>
-                    </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 页脚 -->
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Master's in Applied Mathematics and Statistics</h3>
+                        <h4>Institut Polytechnique de Paris, France</h4>
+                        <p>Coursework: Optimization, Stochastic Processes, Functional Analysis, Mathematical Statistics, Python for Data Science</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 2018 - Jul 2023</div>
+                    <div class="timeline-content">
+                        <h3>Dual Bachelor's Degrees</h3>
+                        <h4>Sun Yat-sen University, Guangzhou, China</h4>
+                        <p><strong>Philosophy (Logic) & Applied Mathematics</strong></p>
+                        <p>Relevant coursework: Game Theory, Cognitive Psychology, Real Analysis, Probability Theory, Linear Algebra, Database Systems, Advanced Programming</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Current</div>
+                    <div class="timeline-content">
+                        <h3>Research Assistant</h3>
+                        <h4>Institute of Biology, Genetics and Bioinformatics (IBGBI)</h4>
+                        <p><em>Université Paris-Saclay, Évry, France</em></p>
+                        <ul>
+                            <li>Conducted state-of-the-art research on metalearning and manifold optimization in healthcare</li>
+                            <li>Reproduced and evaluated key algorithms on the MIMIC-IV dataset for clinical prediction tasks</li>
+                            <li>Performed in-depth result analysis, visualization, and technical reporting under Dr. Massinissa Hamidi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2023 - Sep 2023</div>
+                    <div class="timeline-content">
+                        <h3>Management Trainee</h3>
+                        <h4>LEDTEEN Opto Semiconductors (Guangzhou) Co., Ltd</h4>
+                        <p><em>Guangzhou, China</em></p>
+                        <ul>
+                            <li>Contributed to strategic projects and operational optimization during a three-month management training program at an optoelectronics company</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2022 - Sep 2022</div>
+                    <div class="timeline-content">
+                        <h3>Algorithm Engineer</h3>
+                        <h4>Haolan Information Technology Co., Ltd.</h4>
+                        <p><em>Guangzhou, China</em></p>
+                        <ul>
+                            <li>Developed and evaluated GAN-based models for enhancing the resolution of lung nodule CT images</li>
+                            <li>Designed an evaluation pipeline involving radiologists' blind reviews to assess clinical usefulness</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Projects Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Research & Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Super-Resolution of Lung CT Scans Using GANs</h3>
+                        <p>Developed GAN-based models to enhance the resolution of lung nodule CT images, with clinical evaluation pipeline involving radiologist assessments.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>GANs</span>
+                            <span>Medical Imaging</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ViktorFu/Super-Resolution-of-Lung-CT-Scans-Using-GANs" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Financial Risk Assessment System</h3>
+                        <p>Comprehensive GUI application for financial risk assessment with complete source code, project report, and presentation materials.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>GUI Development</span>
+                            <span>Financial Modeling</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ViktorFu/Financial-Risk-Assessment-System" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Professional Whisper Transcriber</h3>
+                        <p>Professional audio/video transcription tool based on OpenAI Whisper with high-precision timestamps and parallel processing capabilities.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Whisper AI</span>
+                            <span>Audio Processing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ViktorFu/whisper-transcriber" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Markov Process Simulation</h3>
+                        <p>Implementation and analysis of Markov processes using Python and NumPy for stochastic modeling applications.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>Stochastic Processes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Handwritten Character Classification on Kuzushiji-49</h3>
+                        <p>CNN-based classification system for historical Japanese characters using PyTorch framework.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>CNN</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Numerical Analysis of ODEs</h3>
+                        <p>Comprehensive numerical analysis of ordinary differential equations with analytical comparison using scientific computing tools.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SciPy</span>
+                            <span>Matplotlib</span>
+                            <span>Numerical Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>C++</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Science & ML</h3>
+                    <div class="skill-tags">
+                        <span>PyTorch</span>
+                        <span>Jupyter</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>SciPy</span>
+                        <span>Matplotlib</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Research Areas</h3>
+                    <div class="skill-tags">
+                        <span>Applied Mathematics</span>
+                        <span>Machine Learning</span>
+                        <span>Optimization</span>
+                        <span>Stochastic Processes</span>
+                        <span>Medical AI</span>
+                        <span>Quantitative Finance</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>LaTeX</span>
+                        <span>Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Chinese (Native)</span>
+                        <span>English (C1)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <p>I'm always interested in discussing research opportunities, collaborations, or potential projects in applied mathematics and machine learning.</p>
+                <div class="contact-methods">
+                    <a href="mailto:weikang.fu@polytechnique.edu" class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <span>weikang.fu@polytechnique.edu</span>
+                    </a>
+                    <a href="https://github.com/ViktorFu" target="_blank" class="contact-method">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/ViktorFu</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 我的个人主页. 保留所有权利.</p>
+            <p>&copy; 2024 Weikang FU. All rights reserved.</p>
         </div>
     </footer>
 
