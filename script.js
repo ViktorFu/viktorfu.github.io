@@ -42,13 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 打字效果
     const typingText = document.querySelector('.typing-text');
     if (typingText) {
-        const texts = [
-            '全栈开发工程师',
-            '前端开发专家',
-            '后端开发工程师',
-            'UI/UX设计师',
-            '技术创新者'
-        ];
+                const texts = [            '机器学习工程师',            'AI研究员',            '医学影像AI专家',            '金融科技开发者',            'Python数据科学家'        ];
         
         let textIndex = 0;
         let charIndex = 0;
