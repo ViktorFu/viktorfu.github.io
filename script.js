@@ -214,6 +214,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 2000);
     }
     
+    // Update CV download links with current date
+    function updateCVLinks() {
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = String(today.getMonth() + 1).padStart(2, '0');
+        const day = String(today.getDate()).padStart(2, '0');
+        const dateString = `${year}${month}${day}`;
+        
+        const baseURL = 'https://viktorfu.github.io/CV_Weikang_FU.pdf';
+        const versionedURL = `${baseURL}?v=${dateString}`;
+        
+        // Update hero CV download button
+        const heroButton = document.getElementById('cv-download-hero');
+        if (heroButton) {
+            heroButton.href = versionedURL;
+        }
+        
+        // Update contact CV download link
+        const contactLink = document.getElementById('cv-download-contact');
+        if (contactLink) {
+            contactLink.href = versionedURL;
+        }
+        
+        console.log(`📄 CV download links updated with version: ${dateString}`);
+    }
+    
+    // Update CV links on page load
+    updateCVLinks();
+    
     // Initialize
     console.log('✅ Personal website initialized successfully');
     console.log('📱 Responsive design enabled');
